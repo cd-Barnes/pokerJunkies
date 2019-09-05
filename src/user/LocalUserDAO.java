@@ -16,7 +16,7 @@ import java.util.Map;
 // Handles all local user saving and loading.
 public class LocalUserDAO implements UserDAO {
     
-    private final String userSavePath = "saves/";
+    private final String userSavePath = "main/saves/";
     
     
     private Map<String, User> usersByName;
