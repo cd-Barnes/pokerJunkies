@@ -29,28 +29,28 @@ import pokerjunkie.BackgroundPanel;
 public class GameView extends JFrame {
     
     //
-    private final String backgroundImagePath = "res/table.png";
+    private final String backgroundImagePath = "src/main/resources/table.png";
     private final int backgroundWidth = 1188;
     private final int backgroundHeight = 738;
     private BackgroundPanel backgroundPanel;
     
     //
     private ImageIcon[] cardImage;
-    private final String cardImagePath = "res/cards/%s_%s.png";
+    private final String cardImagePath = "src/main/resources/cards/%s_%s.png";
     private ImageIcon cardSpotImage;
-    private final String cardSpotImagePath = "res/card_spot.png";
+    private final String cardSpotImagePath = "src/main/resources/card_spot.png";
     private ImageIcon deckImage;
-    private final String deckImagePath = "res/decks/Deck_Red.png";
+    private final String deckImagePath = "src/main/resources/decks/Deck_Red.png";
     private ImageIcon deckStackImage;
-    private final String deckStackImagePath = "res/decks/Stack_Red.png";
+    private final String deckStackImagePath = "src/main/resources/decks/Stack_Red.png";
     private ImageIcon dealerImage;
-    private final String dealerImagePath = "res/chips/dealer_chip.png";
+    private final String dealerImagePath = "src/main/resources/chips/dealer_chip.png";
     private ImageIcon bigBlindImage;
-    private final String bigBlindImagePath = "res/chips/big_blind_chip.png";
+    private final String bigBlindImagePath = "src/main/resources/chips/big_blind_chip.png";
     private ImageIcon littleBlindImage;
-    private final String littleBlindImagePath = "res/chips/little_blind_chip.png";
+    private final String littleBlindImagePath = "src/main/resources/chips/little_blind_chip.png";
     private ImageIcon chipSpotImage;
-    private final String chipSpotImagePath = "res/chip_spot.png";
+    private final String chipSpotImagePath = "src/main/resources/chip_spot.png";
     
     //
     private JLabel[] tableCard;
@@ -63,16 +63,16 @@ public class GameView extends JFrame {
     private JLabel userBalance;
     //
     private JButton betButton;
-    private final String betButtonImagePath = "res/bet_button.png";
+    private final String betButtonImagePath = "src/main/resources/bet_button.png";
     private JSpinner betSpinner;
     private SpinnerNumberModel betSpinnerModel;
     private final float betSpinnerFontSize = 24.0f;
     //
     private JButton foldButton;
-    private final String foldButtonImagePath = "res/fold_button.png";
+    private final String foldButtonImagePath = "src/main/resources/fold_button.png";
     //
     private JButton dealButton;
-    private final String dealButtonImagePath = "res/deal_button.png";
+    private final String dealButtonImagePath = "src/main/resources/deal_button.png";
     //
     private JLabel potBalanceLabel;
     
