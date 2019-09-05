@@ -89,12 +89,12 @@ public class ChippyView extends JFrame {
     //
     private void initChippyAnimationPanel() throws IOException {
         
-        ImageIcon basePose = new ImageIcon("res/chippy/base_pose.png");
-        ChippyAnimation idleAnimation = new ChippyAnimation("idle", "res/chippy/idle/", 32);
+        ImageIcon basePose = new ImageIcon("src/main/resources/chippy/base_pose.png");
+        ChippyAnimation idleAnimation = new ChippyAnimation("idle", "src/main/resources/chippy/idle/", 32);
         
         animationPanel = new ChippyAnimationPanel(idleAnimation, basePose, 500, 500);
         
-        ChippyAnimation dissapointAnimation = new ChippyAnimation("dissapoint", "res/chippy/dissapoint/", 32);
+        ChippyAnimation dissapointAnimation = new ChippyAnimation("dissapoint", "src/main/resources/chippy/dissapoint/", 32);
         animationPanel.addAnimation(dissapointAnimation);
     }
     

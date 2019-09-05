@@ -15,8 +15,8 @@ import javax.swing.JLabel;
 
 public class SplashView extends JFrame {
     
-    private final String splashImageUrl = "res/img/splash.png";
-    private final String playButtonImageUrl = "res/img/play_button.png";
+    private final String splashImageUrl = "src/main/resources/img/splash.png";
+    private final String playButtonImageUrl = "src/main/resources/img/play_button.png";
     
     private final int splashWidth = 628;
     private final int splashHeight = 468;

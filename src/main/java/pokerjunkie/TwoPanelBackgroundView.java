@@ -10,7 +10,7 @@ public class TwoPanelBackgroundView extends JFrame {
     
     //
     protected BackgroundPanel backgroundPanel;
-    protected String backgroundImageUrl = "res/img/menu_background.png";
+    protected String backgroundImageUrl = "src/main/resources/img/menu_background.png";
     protected int backgroundWidth = 628;
     protected int backgroundHeight = 468;
     //
